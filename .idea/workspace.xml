@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8291fa17-521d-46c3-83c1-3d6947c8a48f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/plugin-devis.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540378903800</updated>
-      <workItem from="1540378904934" duration="1706000" />
+      <workItem from="1540378904934" duration="1718000" />
     </task>
     <task id="LOCAL-00001" summary="Creation des fichiers du parcours &quot;site vitrine&quot;">
       <created>1540380760864</created>
@@ -151,11 +146,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540381037087</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Crea gitignore">
+      <created>1540381088441</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540381088441</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1706000" />
+    <option name="totallyTimeSpent" value="1718000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -198,9 +200,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creation des fichiers du parcours &quot;site vitrine&quot;" />
     <MESSAGE value="Creation de la premiere page du formulaire (choix entre site vitrine et site e-commerce)" />
-    <MESSAGE value="Crea gitignore" />
     <MESSAGE value="Crea fichier parcours &quot;site e-commerce&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crea fichier parcours &quot;site e-commerce&quot;" />
+    <MESSAGE value="Crea gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crea gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
