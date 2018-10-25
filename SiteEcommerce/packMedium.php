@@ -31,7 +31,17 @@ Cet accompagnement personnalisé comprend :
         <li>une Google Map</li>
         <li>Une galerie photos</li>
     </ul>
-</body>
-</html>
+
 
 <!-- TODO Créer un formulaire avec envoi de mail -->
+
+
+<form id="form1" name="form1" method="post" action="envoi.php">
+    <input name="nom" type="text" class="normal" id="nom" size="50" />
+    <input name="email" type="text" class="normal" id="email" size="50" />
+    <textarea name="msg" cols="50" rows="5" class="normal" id="msg"></textarea>
+    <input type="submit" name="envoi" id="envoi" value="Envoyer" />
+</form>
+
+</body>
+</html>

@@ -30,6 +30,14 @@ Cet accompagnement personnalisé comprend :
         <li>une Google Map</li>
         <li>Une galerie photos</li>
     </ul>
+
+
+    <form id="form1" name="form1" method="post" action="envoi.php">
+        Nom : <input name="nom" type="text" class="normal" id="nom" size="50" /><br>
+        Mail :<input name="email" type="text" class="normal" id="email" size="50" /><br>
+        Messsage :<textarea name="msg" cols="50" rows="5" class="normal" id="msg"></textarea><br>
+        <input type="submit" name="envoi" id="envoi" value="Envoyer" />
+    </form>
 </body>
 </html>
 
