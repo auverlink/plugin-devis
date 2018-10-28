@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8291fa17-521d-46c3-83c1-3d6947c8a48f" name="Default" comment="[PHP] Add Action">
-      <change beforePath="" afterPath="$PROJECT_DIR$/plugin-devis.php" />
+    <list default="true" id="8291fa17-521d-46c3-83c1-3d6947c8a48f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +13,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-14">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="packMedium.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/siteEcommerce/packMedium.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,11 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin-devis.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plugin-devis.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugin-devis.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -73,25 +102,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/siteVitrine/send.php" />
-        <option value="$PROJECT_DIR$/mailOk.php" />
-        <option value="$PROJECT_DIR$/send.php" />
-        <option value="$PROJECT_DIR$/SiteEcommerce/nbPages.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/SiteEcommerce/strategieMarketing.php" />
-        <option value="$PROJECT_DIR$/siteVitrine/nbPages.php" />
-        <option value="$PROJECT_DIR$/siteVitrine/blog.php" />
-        <option value="$PROJECT_DIR$/siteVitrine/seo.php" />
-        <option value="$PROJECT_DIR$/sendMail/send.php" />
-        <option value="$PROJECT_DIR$/SiteEcommerce/packMedium.php" />
-        <option value="$PROJECT_DIR$/SiteEcommerce/packPremium.php" />
-        <option value="$PROJECT_DIR$/sendMail/errorMail.php" />
-        <option value="$PROJECT_DIR$/siteVitrine/packStarter.php" />
-        <option value="$PROJECT_DIR$/siteVitrine/packMedium.php" />
-        <option value="$PROJECT_DIR$/siteVitrine/packPremium.php" />
-        <option value="$PROJECT_DIR$/sendMail/mailOk.php" />
-        <option value="$PROJECT_DIR$/inclus/plugin-devis-functions.php" />
-        <option value="$PROJECT_DIR$/plugin-devis.php" />
       </list>
     </option>
   </component>
@@ -101,12 +111,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="MAMP PHP 7.1.6" />
-  <component name="ProjectFrameBounds">
-    <option name="y" value="32" />
-    <option name="width" value="1439" />
-    <option name="height" value="820" />
-  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -138,18 +143,6 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sendMail" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -169,129 +162,10 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="8291fa17-521d-46c3-83c1-3d6947c8a48f" name="Default" comment="" />
-      <created>1540378903800</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1540378903800</updated>
-      <workItem from="1540378904934" duration="3980000" />
-      <workItem from="1540387593181" duration="429000" />
-      <workItem from="1540744532810" duration="6000" />
-      <workItem from="1540747042602" duration="5676000" />
-    </task>
-    <task id="LOCAL-00001" summary="Creation des fichiers du parcours &quot;site vitrine&quot;">
-      <created>1540380760864</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1540380760864</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Creation de la premiere page du formulaire (choix entre site vitrine et site e-commerce)">
-      <created>1540380790837</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1540380790837</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Crea gitignore">
-      <created>1540380970899</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1540380970899</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Crea gitignore">
-      <created>1540381004028</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1540381004028</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Crea fichier parcours &quot;site e-commerce&quot;">
-      <created>1540381037087</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1540381037087</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Crea gitignore">
-      <created>1540381088441</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1540381088441</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Crea gitignore">
-      <created>1540381096137</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1540381096137</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Création du fichier d'envoi du mail + message de succès d'envoi et d'erreur">
-      <created>1540752229558</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1540752229558</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Modification du formulaire d'envoi">
-      <created>1540752256762</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1540752256762</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Modification du formulaire d'envoi">
-      <created>1540752270017</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1540752270017</updated>
-    </task>
-    <task id="LOCAL-00011" summary="[HTML] Balise correctement mises">
-      <created>1540752300361</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1540752300361</updated>
-    </task>
-    <task id="LOCAL-00012" summary="[PHP]Modification dossier &quot;Ecommerce&quot;. Refactor.">
-      <created>1540753756834</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1540753756834</updated>
-    </task>
-    <task id="LOCAL-00013" summary="[HTML] Ajout d'un lien vers la page d'accueil du site.">
-      <created>1540753775459</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1540753775459</updated>
-    </task>
-    <task id="LOCAL-00014" summary="[PHP]Modif dossier ecommerce">
-      <created>1540753807088</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1540753807088</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10091000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="76000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1439" height="820" extended-state="0" />
@@ -335,26 +209,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creation des fichiers du parcours &quot;site vitrine&quot;" />
-    <MESSAGE value="Creation de la premiere page du formulaire (choix entre site vitrine et site e-commerce)" />
-    <MESSAGE value="Crea fichier parcours &quot;site e-commerce&quot;" />
-    <MESSAGE value="Crea gitignore" />
-    <MESSAGE value="Création du fichier d'envoi du mail + message de succès d'envoi et d'erreur" />
-    <MESSAGE value="Modification du formulaire d'envoi" />
-    <MESSAGE value="[HTML] Balise correctement mises" />
-    <MESSAGE value="[PHP]Modification dossier &quot;Ecommerce&quot;. Refactor." />
-    <MESSAGE value="[HTML] Ajout d'un lien vers la page d'accueil du site." />
-    <MESSAGE value="[PHP]Modif dossier ecommerce" />
-    <MESSAGE value="[PHP] Ajout d'une add action" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PHP] Ajout d'une add action" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -413,29 +267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -552,10 +383,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugin-devis.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="345">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
           <folding />
         </state>
       </provider>
