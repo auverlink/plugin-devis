@@ -13,4 +13,5 @@
     <p>&nbsp;</p>
     <p>Votre demande de devis a bien été envoyée !</p>
     <p>Nous allons revenir vers vous très rapidement.</p>
+    <p><a href="https://auverlink.ovh">Retour à la page d'accueil.</a></p>
 </div>
