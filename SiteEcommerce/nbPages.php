@@ -32,6 +32,10 @@ catch (Exception $e) {
 
 <html>
 <body>
+
+<H1>Commencez votre projet : demandez un devis</H1>
+
+
 <form method="post">
 
     <div>Combien de pages contiendra votre site ?</div>
