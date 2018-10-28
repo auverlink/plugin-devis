@@ -11,12 +11,16 @@ Author: Vanessa Asse
 Version: 1.0
 */
 
-add_action('registered_post_type', 'getPluginDevis');
+add_action( 'template_redirect', 'getPluginDevis' );
+
 function getPluginDevis()
 {
-    if(is_page('Devis'))
+    $url = '/plugin-devis/index.php';
+
+    if(is_page('devis'))
     {
-        return "index.php";
+        wp_redirect($url);
+        die;
     }
 }
 
