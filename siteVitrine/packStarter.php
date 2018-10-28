@@ -1,5 +1,12 @@
 <html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <title>Demande de devis - Site Vitrine - Pack Starter</title>
+
+</head>
 <body>
+
+<H1>Commencez votre projet : demandez un devis</H1>
 
 <h2>L'offre la plus adaptée à vos besoins est notre pack Starter.</h2>
 
@@ -23,7 +30,22 @@ Cet accompagnement personnalisé comprend :
     <li>Fonctionnalités</li>
     Nous développons pour vous un formulaire de contact afin que vos internautes puissent vous contacter facilement via votre site internet.
 </ul>
+
+<br/>
+
+<h2>Contactez-nous pour en savoir plus !</h2>
+
+
+    <form method="post" action="../sendMail/send.php">
+        Nom : <input name="lastname" type="text" required/><br/>
+        Prénom : <input name="firstname" type="text" required /><br>
+        Mail :<input name="email" type="email" required /><br>
+        Téléphone : <input name="phone" type="tel" required></br>
+        Message :<textarea name="message" cols="50" rows="5"></textarea><br>
+
+        <input name="pack" type="hidden" value="Site Vitrine : Pack Starter"/>
+        <input type="submit" value="Envoyez" />
+    </form>
+
 </body>
 </html>
-
-<!-- TODO Créer un formulaire avec envoi de mail -->

@@ -37,6 +37,12 @@ catch (Exception $e) {
 
 <html>
 <body>
+
+<H1>Commencez votre projet : demandez un devis</H1>
+
+<p>Vous avez une idée, un projet web mais vous ne savez pas par quoi commencer.
+    Ce formulaire va vous aider à trouver la formulaire la plus adéquate pour vous lancer.</p>
+
 <form method="post">
 
     <div>Quel type de site souhaitez-vous ?</div>

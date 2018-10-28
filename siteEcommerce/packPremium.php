@@ -1,5 +1,12 @@
 <html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <title>Demande de devis - Site E-Commerce - Pack Premium</title>
+
+</head>
 <body>
+
+<H1>Commencez votre projet : demandez un devis</H1>
 
 <h2>L'offre la plus adaptée à vos besoins est notre pack Premium.</h2>
 
@@ -32,7 +39,23 @@ Cet accompagnement personnalisé comprend :
         <li>Une galerie photos</li>
         <li>Un gestionnaire d'articles</li>
     </ul>
+</ul>
+
+<br/>
+
+<h2>Contactez-nous pour en savoir plus !</h2>
+
+
+    <form method="post" action="../sendMail/send.php">
+        Nom : <input name="lastname" type="text" required/><br/>
+        Prénom : <input name="firstname" type="text" required /><br>
+        Mail :<input name="email" type="email" required /><br>
+        Téléphone : <input name="phone" type="tel" required></br>
+        Message :<textarea name="message" cols="50" rows="5"></textarea><br>
+
+        <input name="pack" type="hidden" value="Site E-commerce : Pack Premium"/>
+        <input type="submit" value="Envoyez" />
+    </form>
+
 </body>
 </html>
-
-<!-- TODO Créer un formulaire avec envoi de mail -->
