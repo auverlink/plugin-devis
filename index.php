@@ -1,8 +1,10 @@
 <?php
 
+
+
+// Lancement de la session
 session_start();
 
-// TODO Session - verifier que la session est bien lancée
 
 try
 {
@@ -28,8 +30,9 @@ try
     }
 }
 catch (Exception $e) {
-    echo $e->getMessage();
+    return $e;
 }
+
 
 ?>
 
