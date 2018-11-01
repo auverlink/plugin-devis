@@ -1,0 +1,21 @@
+<?php
+
+include 'header.php';
+?>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-1 mb-4">
+        </div>
+        <div class="col-lg-10 mb-4" id="contentform">
+            <p>&nbsp;</p>
+            <p>Bravo !</p>
+            <p>Votre demande a été envoyé !</p>
+        </div>
+
+    </div>
+</div>
+
+
+<?php
+include 'footer.php';
+?>
