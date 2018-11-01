@@ -1,5 +1,7 @@
 <?php
 
+include '../includes/header.php';
+
 try
 {
     if(isset($_POST['pages']) && $_POST['pages'] == "Five pages")
@@ -30,18 +32,33 @@ catch (Exception $e) {
 
 ?>
 
-<html>
-<body>
-<form method="post">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-1 mb-4">
+        </div>
+        <div class="col-lg-10 mb-4" id="contentform">
+            <form method="post">
+                <div>Combien de pages contiendra votre site ?</div>
+                <div class="auverlinkradio">
+                    <div class="auverlinkradio-default">
+                        <input type="radio" name="pages" id="radio1" value="Five pages" />
+                        <label for="radio1">Entre 1 et 5 pages</label>
+                    </div>
+                    <div class="auverlinkradio-default">
+                        <input type="radio" name="pages" id="radio2"value="Ten pages" />
+                        <label for="radio2">De 6 à 10 pages</label>
+                    </div>
+                </div>
+                <br/>
+                <button type="submit" class="btn btn-auverlink">Résultat</button>
 
-    <div>Combien de pages contiendra votre site ?</div>
+            </form>
+        </div>
+    </div>
+</div>
 
-    <input type="radio" name="pages" value="Five pages" />Entre 1 et 5 pages
-    <br />
-    <input type="radio" name="pages" value="Ten pages" />De 6 à 10 pages
-    <br />
-    <br/>
-    <button type="submit">Validez</button>
 
-</form>
-</body>
+            <?php
+
+            include '../includes/footer.php';
+            ?>

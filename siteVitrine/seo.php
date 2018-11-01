@@ -1,5 +1,7 @@
 <?php
 
+include '../includes/header.php';
+
 try
 {
     if(isset($_POST['seo']) && $_POST['seo'] == "yes")
@@ -26,24 +28,34 @@ try
 catch (Exception $e) {
     echo $e->getMessage();
 }
-
 ?>
 
+<div class="container">
+    <div class="row">
+        <div class="col-lg-1 mb-4">
+        </div>
+        <div class="col-lg-10 mb-4" id="contentform">
+            <form method="post">
+                <div>Souhaitez-vous que l'on optimise le référencement de votre site pour qu'il soit plus visible sur les moteurs de recherche ?
+                </div>
+                <div class="auverlinkradio">
+                    <div class="auverlinkradio-default">
+                        <input type="radio" name="seo"  id="radio1"value="yes" />
+                        <label for="radio1">Oui</label>
+                    </div>
+                    <div class="auverlinkradio-default">
+                        <input type="radio" name="seo" id="radio2"value="no" />
+                        <label for="radio2">Non</label>
+                    </div>
+                </div>
+                <br/>
+                <button type="submit" class="btn btn-auverlink">Question suivante</button>
 
+            </form>
+        </div>
+    </div>
+</div>
 
-<html>
-<body>
-<form method="post">
-
-    <div>Souhaitez-vous que l'on optimise le référencement de votre site pour qu'il soit plus visible sur les moteurs de recherche ?</div>
-
-    <input type="radio" name="seo" value="yes" />Oui
-    <br/>
-    <input type="radio" name="seo" value="no" />Non
-    <br />
-    <br/>
-    <button type="submit">Validez</button>
-
-</form>
-</body>
-</html>
+<?php
+include '../includes/footer.php';
+?>

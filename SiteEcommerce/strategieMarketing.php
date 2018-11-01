@@ -1,4 +1,7 @@
+
 <?php
+
+include '../includes/header.php';
 
 try
 {
@@ -29,21 +32,37 @@ catch (Exception $e) {
 
 ?>
 
+<div class="container">
+    <div class="row">
+        <div class="col-lg-1 mb-4">
+        </div>
+        <div class="col-lg-10 mb-4" id="contentform">
 
-<html>
-<body>
-<form method="post">
+            <form method="post">
+                <div>Souhaitez-vous que l'on vous propose un accompagnement en stratégie marketing
+                    afin d'augmenter la visibilité de votre e-commerce ?
+                </div>
+                <div class="auverlinkradio">
+                    <div class="auverlinkradio-default">
+                        <input type="radio" name="marketing" id="radio1" value="yes" />
+                        <label for="radio1">Oui</label>
+                    </div>
+                    <div class="auverlinkradio-default">
+                        <input type="radio" name="marketing" id="radio2" value="no" />
+                        <label for="radio2">Non</label>
+                    </div>
+                </div>
+                <
+                <br/>
+                <button type="submit" class="btn btn-auverlink">Question Suivante</button>
+            </form>
+        </div>
+    </div>
 
-    <div>Souhaitez-vous que l'on vous propose un accompagnement en stratégie marketing
-        afin d'augmenter la visibilité de votre e-commerce ?</div>
+</div>
 
-    <input type="radio" name="marketing" value="yes" />Oui
-    <br/>
-    <input type="radio" name="marketing" value="no" />Non
-    <br />
-    <br/>
-    <button type="submit">Validez</button>
+        <?php
 
-</form>
-</body>
-</html>
+        include '../includes/footer.php';
+        ?>
+
