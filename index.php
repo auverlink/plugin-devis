@@ -1,41 +1,7 @@
 <?php
-
-
-
 // Lancement de la session
 session_start();
-
-
-try
-{
-    if(isset($_POST['site']) && $_POST['site'] == "Site Vitrine")
-    {
-        header('Location:siteVitrine/nbPages.php');
-        exit();
-    }
-
-    if(isset($_POST['site']) && $_POST['site'] == "Site E-commerce")
-    {
-        header('Location:siteEcommerce/nbPages.php');
-        exit();
-    }
-
-    // TODO L'exception ne s'affiche pas.
-    else if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['site']) )
-    {
-        if(!$_POST['site'])
-        {
-            throw new Exception("Vous devez choisir une de ces deux propositions pour poursuivre votre demande de devis.");
-        }
-    }
-}
-catch (Exception $e) {
-    return $e;
-}
-
-
 ?>
-
 
 
 <html>
@@ -46,7 +12,8 @@ catch (Exception $e) {
 <p>Vous avez une idée, un projet web mais vous ne savez pas par quoi commencer.
     Ce formulaire va vous aider à trouver la formulaire la plus adéquate pour vous lancer.</p>
 
-<form method="post">
+
+<form method="post" action="post_index.php">
 
     <div>Quel type de site souhaitez-vous ?</div>
 
@@ -58,6 +25,13 @@ catch (Exception $e) {
 
 </form>
 
+<br/>
+
+<?php if(array_key_exists('errors', $_SESSION)): ?>
+
+    <?= implode('<br>', $_SESSION['errors']); ?>
+
+    <?php unset($_SESSION['errors']); endif ?>
 
 </body>
 </html>
