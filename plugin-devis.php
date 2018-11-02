@@ -11,7 +11,7 @@ Author: Vanessa Asse
 Version: 1.0
 */
 
-add_action( 'template_redirect', 'getPluginDevis' );
+/*add_action( 'template_redirect', 'getPluginDevis' );
 
 function getPluginDevis()
 {
@@ -22,5 +22,5 @@ function getPluginDevis()
         wp_redirect($url);
         die;
     }
-}
+}*/
 
