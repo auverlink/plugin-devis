@@ -41,7 +41,7 @@ $mess.="
 $headers = "MIME-Version: 1.0\n";
 $headers .= "content-type: text/html; charset=iso-8859-1\n";
 $headers .= "From: vanessa.asse@gmail.com\n";
-if (mail($dest,$objet,$mess,$headers)){
+if (mail($dest,$objet,htmlspecialchars($mess),$headers)){
     header("location: mailOk.php");
 }else{
     header("location: errorMail.php");
