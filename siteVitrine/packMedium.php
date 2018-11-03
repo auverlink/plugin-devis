@@ -15,7 +15,7 @@
 Cet accompagnement personnalisé comprend :
 <ul>
     <li><b>1 nom de domaine + 1 extension :</b> nous vous conseillons dans le choix du nom de domaine le plus adapté à votre projet.</li>
-    <li><b>1 à 5 page :</b> En fonction de vos besoins, nous déployons jusqu'à cinq pages sur votre site.</li>
+    <li><b>1 à 5 page :</b> en fonction de vos besoins, nous déployons jusqu'à cinq pages sur votre site.</li>
     <li><b>Site administrable :</b> nous mettons à votre disposition une site administrable facilement. Nous vous accompagnons dans sa prise en main.</li>
     <li><b>Référencement naturel optimisé :</b> nous vous conseillons dans la rédaction des contenus de votre site afin d'optimiser au maximum le référencement de votre site
         sur les moteurs de recherche.</li>
