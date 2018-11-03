@@ -13,7 +13,7 @@ session_start();
     Ce formulaire va vous aider à trouver la formulaire la plus adéquate pour vous lancer.</p>
 
 
-<form method="post" action="post_index.php">
+<form method="post" action="postIndex.php">
 
     <div>Quel type de site souhaitez-vous ?</div>
 
@@ -27,7 +27,7 @@ session_start();
 
 <br/>
 
-<?php if(array_key_exists('errors', $_SESSION)): ?>
+    <?php if(array_key_exists('errors', $_SESSION)): ?>
 
     <?= implode('<br>', $_SESSION['errors']); ?>
 
