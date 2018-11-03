@@ -1,32 +1,6 @@
 <?php
-
-try
-{
-    if(isset($_POST['blog']) && $_POST['blog'] == "yes")
-    {
-        header('Location:packPremium.php');
-        exit();
-    }
-
-    if(isset($_POST['blog']) && $_POST['blog'] == "no")
-    {
-        header('Location:packMedium.php');
-        exit();
-    }
-
-    // TODO L'exception ne s'affiche pas.
-    else if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['blog']) )
-    {
-        if(!$_POST['blog'])
-        {
-            throw new Exception("Vous devez choisir une de ces deux propositions pour poursuivre votre demande de devis.");
-        }
-    }
-}
-catch (Exception $e) {
-    echo $e->getMessage();
-}
-
+// Lancement de la session
+session_start();
 ?>
 
 
@@ -36,7 +10,7 @@ catch (Exception $e) {
 <H1>Commencez votre projet : demandez un devis</H1>
 
 
-<form method="post">
+<form method="post" action="postBlog.php">
 
     <div>Dans votre site, un espace "Blog" sera utile ? </div>
 
@@ -48,5 +22,13 @@ catch (Exception $e) {
     <button type="submit">Validez</button>
 
 </form>
+
+
+    <?php if(array_key_exists('errors', $_SESSION)): ?>
+
+    <?= implode('<br>', $_SESSION['errors']); ?>
+
+    <?php unset($_SESSION['errors']); endif ?>
+
 </body>
 </html>
