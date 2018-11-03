@@ -1,32 +1,6 @@
 <?php
-
-try
-{
-    if(isset($_POST['seo']) && $_POST['seo'] == "yes")
-    {
-        header('Location:blog.php');
-        exit();
-    }
-
-    if(isset($_POST['seo']) && $_POST['seo'] == "no")
-    {
-        header('Location:packStarter.php');
-        exit();
-    }
-
-    // TODO L'exception ne s'affiche pas.
-    else if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['seo']) )
-    {
-        if(!$_POST['seo'])
-        {
-            throw new Exception("Vous devez choisir une de ces deux propositions pour poursuivre votre demande de devis.");
-        }
-    }
-}
-catch (Exception $e) {
-    echo $e->getMessage();
-}
-
+// Lancement de la session
+session_start();
 ?>
 
 
@@ -37,7 +11,7 @@ catch (Exception $e) {
 <H1>Commencez votre projet : demandez un devis</H1>
 
 
-<form method="post">
+<form method="post" action="postSeo.php">
 
     <div>Souhaitez-vous que l'on optimise le référencement de votre site pour qu'il soit plus visible sur les moteurs de recherche ?</div>
 
@@ -49,5 +23,16 @@ catch (Exception $e) {
     <button type="submit">Validez</button>
 
 </form>
+
+
+<br/>
+
+    <?php if(array_key_exists('errors', $_SESSION)): ?>
+
+    <?= implode('<br>', $_SESSION['errors']); ?>
+
+    <?php unset($_SESSION['errors']); endif ?>
+
+
 </body>
 </html>
