@@ -1,34 +1,8 @@
 <?php
-
-try
-{
-    if(isset($_POST['pages']) && $_POST['pages'] == "Five pages")
-    {
-        header('Location:strategieMarketing.php');
-        exit();
-    }
-
-
-    if(isset($_POST['pages']) && $_POST['pages'] == "Ten pages")
-    {
-        header('Location:strategieMarketing.php');
-        exit();
-    }
-
-    // TODO L'exception ne s'affiche pas.
-    else if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['pages']) )
-    {
-        if(!$_POST['pages'])
-        {
-            throw new Exception("Vous devez choisir une de ces deux propositions pour poursuivre votre demande de devis.");
-        }
-    }
-}
-catch (Exception $e) {
-    echo $e->getMessage();
-}
-
+// Lancement de la session
+session_start();
 ?>
+
 
 <html>
 <body>
@@ -36,7 +10,7 @@ catch (Exception $e) {
 <H1>Commencez votre projet : demandez un devis</H1>
 
 
-<form method="post">
+<form method="post" action="postNbPages.php">
 
     <div>Combien de pages contiendra votre site ?</div>
 
@@ -48,4 +22,13 @@ catch (Exception $e) {
     <button type="submit">Validez</button>
 
 </form>
+
+
+    <?php if(array_key_exists('errors', $_SESSION)): ?>
+
+    <?= implode('<br>', $_SESSION['errors']); ?>
+
+    <?php unset($_SESSION['errors']); endif ?>
+
 </body>
+</html>
