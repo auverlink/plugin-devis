@@ -14,33 +14,26 @@
 
 Cet accompagnement personnalisé comprend :
 <ul>
-    <li>1 nom de domaine + 1 extension</li>
-    Nous vous conseillons dans le choix du nom de domaine le plus adapté à votre projet.
-    <li>1 page</li>
-    Vous optez pour un site One page.
-    <li>Administrable</li>
-    Nous mettons à votre disposition une site administrable facilement. Nous vous accompagnons dans sa prise en main.
-    <li>Maintenance & hébergement inclus</li>
-    Nous assurons l'hébergement de votre site. Pas de soucis au fil du temps après la mise en ligne de votre site,
-    nous assurons sa maintenance (mise à jour de votre site et de ses différents plugins).
-    <li>1 Template responsive</li>
-    Nous vous proposons un modèle de page adaptable et lisible sur tous supports, du mobile à l'ordinateur.
-    <li>Charte Graphique</li>
-    Nous déclinons votre charte graphique sur votre nouveau site si vous en disposez déjà d'une.
-    <li>Fonctionnalités</li>
-    Nous développons pour vous un formulaire de contact afin que vos internautes puissent vous contacter facilement via votre site internet.
+    <li><b>1 nom de domaine + 1 extension :</b> nous vous conseillons dans le choix du nom de domaine le plus adapté à votre projet.</li>
+    <li><b>1 page :</b>  vous optez pour un site One page.</li>
+    <li><b>Site administrable :</b> nous mettons à votre disposition une site administrable facilement. Nous vous accompagnons dans sa prise en main.</li>
+    <li><b>Maintenance & hébergement inclus :</b> nous assurons l'hébergement de votre site ainsi que sa maintenance (mise à jour de votre site et de ses différents plugins).</li>
+    <li><b>1 Template responsive :</b> nous vous proposons un modèle de page adaptable et lisible sur tous supports, du mobile à l'ordinateur.</li>
+    <li><b>Charte Graphique :</b> nous déclinons votre identité visuelle sur votre nouveau site si vous disposez d'une charte graphique.</li>
+    <li><b>Fonctionnalités :</b> nous développons pour vous un formulaire de contact afin que vos internautes puissent vous contacter facilement via votre site internet.</li>
 </ul>
-
 <br/>
 
 <h2>Contactez-nous pour en savoir plus !</h2>
 
 
     <form method="post" action="../sendMail/send.php">
-        Nom : <input name="lastname" type="text" required/><br/>
-        Prénom : <input name="firstname" type="text" required /><br>
-        Mail :<input name="email" type="email" required /><br>
-        Téléphone : <input name="phone" type="tel" required></br>
+        Nom : <input name="lastname" type="text" required/>
+        Prénom : <input name="firstname" type="text" required />
+        Mail :<input name="email" type="email" required />
+        Téléphone : <input name="phone" type="tel" required>
+        Fonction : <input name="fonction" type="text"/>
+        Entreprise : <input name="enterprise" type="text"/>
         Message :<textarea name="message" cols="50" rows="5"></textarea><br>
 
         <input name="pack" type="hidden" value="Site Vitrine : Pack Starter"/>
