@@ -5,11 +5,23 @@ session_start();
 
 
 <html>
+
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style-devis.css" />
+    <title>Demande de devis - Auverlink</title>
+      
+</head>
+
+
 <body>
+
+<div class="devis-container">
 
 <H1>Commencez votre projet : demandez un devis</H1>
 
-<p>Vous avez une idée, un projet web mais vous ne savez pas par quoi commencer.
+<p>Vous avez une idée, un projet web mais vous ne savez pas par quoi commencer.<br/>
     Ce formulaire va vous aider à trouver la formulaire la plus adéquate pour vous lancer.</p>
 
 
@@ -32,6 +44,9 @@ session_start();
     <?= implode('<br>', $_SESSION['errors']); ?>
 
     <?php unset($_SESSION['errors']); endif ?>
+
+</div>
+
 
 </body>
 </html>

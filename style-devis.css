@@ -1,0 +1,11 @@
+body{
+    background-color: #3c3744;
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+    color: white;
+}
+.devis-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+}

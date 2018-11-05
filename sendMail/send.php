@@ -19,7 +19,7 @@ $objet="Demande de devis via le site d'Auverlink";
 $mess="
     
       \n";
-$mess.="Nom : $lastname
+$mess.="Nom : $lastname 
     \n";
 $mess.="Prénom : $firstname
     \n";
